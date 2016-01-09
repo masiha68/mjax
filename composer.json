@@ -1,0 +1,22 @@
+{
+    "name": "chita/yii2-mjax",
+    "description": "this extension help you create ajax link and ajax form",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "gh darvishani",
+            "email": "gh.darvishani@live.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "chita/yii2-mjax": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "chita\\mjax\\": ""
+        }
+    }
+}
